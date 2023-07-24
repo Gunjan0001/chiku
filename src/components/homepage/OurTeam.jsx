@@ -23,7 +23,7 @@ const OurTeam = () => {
                 <div>
                   <img src={obj.teamImg1} alt="team1" width="100%" />
                 </div>
-                <h2 className="fw-semibold font_md mb-2 mt-3 pt-1 text-white team_name ">
+                <h2 className="fw-semibold font_md mb-2 mt-3 pt-1 text-white">
                   {obj.Name}
                 </h2>
                 <p className="text-white fw-light font_sm opacity_07 mb-0">

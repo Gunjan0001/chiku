@@ -171,14 +171,20 @@ body {
 }
 
 /* TEAM */
-.team_name {
-  transition: all 0.3s;
-  cursor: pointer;
+.team_box_hover h2 {
+  transition: all 0.3s linear;
 }
 
-.team_name:hover {
-  color: var(--color-orange) !important;
+.team_box_hover img {
+  transition: all 0.3s linear;
+}
 
+.team_box_hover:hover img {
+  transform: scale(1.1);
+}
+
+.team_box_hover:hover h2 {
+  color: #f39120 !important;
 }
 
 /* OUR_STORY */
