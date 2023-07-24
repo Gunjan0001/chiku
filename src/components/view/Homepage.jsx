@@ -6,11 +6,11 @@ import OurTeam from "../homepage/OurTeam";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <OurVision />
-      {/* <Mission /> */}
-      {/* <OurStory /> */}
-      {/* <OurTeam /> */}
+      <Mission />
+      <OurStory />
+      <OurTeam />
     </div>
   );
 };

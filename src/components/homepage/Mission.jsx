@@ -19,7 +19,7 @@ const Mission = () => {
           </p>
         </div>
         <div className="row flex-column flex-sm-row align-items-center">
-          <div className="mission_img_1" data-aos="flip-left">
+          <div className="mission_img_1">
             <img src={mission1} alt="mission1_img" className="w-100" />
           </div>
           <div className="mission_img_2 mt-sm-0 mt-3" data-aos="flip-right">

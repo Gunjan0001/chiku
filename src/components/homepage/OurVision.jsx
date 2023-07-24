@@ -34,18 +34,16 @@ const OurVision = () => {
               </a>
             </div>
           </div>
-          <div className="col-md-9 col-lg-6 mx-auto">
+          <div className="col-md-9 col-lg-6 mx-auto mt-3 mt-lg-0">
             <img
               src={vision}
               alt="vision1"
               className="mt-4 mt-md-0 vision_position_img d-none d-lg-block"
-              data-aos="fade-left"
             />
             <img
               src={vision2}
               alt="vision"
-              className="mt-4 mt-md-0 vision_position_img d-lg-none"
-              data-aos="fade-left"
+              className="mt-4 mt-md-0 vision_position_img d-lg-none mx-auto"
             />
           </div>
         </div>
