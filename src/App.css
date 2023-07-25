@@ -356,7 +356,7 @@ body {
   height: 0%;
   z-index: 1;
   top: -800px;
-  left: -800px;
+  left: -100vw;
   transition: all 0.3s ease-in-out;
 }
 
