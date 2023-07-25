@@ -736,6 +736,12 @@ body {
   }
 }
 
+@media (min-width:1600px) {
+  .vision_position_img {
+    right: 220px !important;
+  }
+}
+
 @media (max-width: 1199.98px) {
   .blueshadow_position::after {
     left: 6px;
