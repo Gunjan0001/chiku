@@ -4,15 +4,20 @@ import vision2 from "../../assets/images/webp/visionimg2.webp";
 
 const OurVision = () => {
   return (
-    <div className="pt-5 mt-lg-5 position-relative Z_index_1">
+    <div className="pt-5 mt-lg-5 position-relative ">
       <div className="container custom_container ">
-        <div className="row flex-column flex-md-row align-items-center justify-content-between py-xl-5">
-          <div className="col-lg-6">
-            <div className="text-center text-lg-start">
-              <h2 className="font_xl text-white fw-semibold mb-3">
+        <div className="row align-items-center justify-content-between py-xl-5">
+          <div
+            className="col-lg-6"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="1000"
+          >
+            <div className="text-center text-lg-start position-relative z_index_5">
+              <h2 className="font_xl text-white fw-semibold mb-lg-3">
                 Our <span className="text_orange">Vision</span>
               </h2>
-              <p className="text-white opacity_07 font_sm mb-md-4 mb-0 fw-light pb-3">
+              <p className="common_para mb-md-4 mb-3 mb-0 pb-lg-3 max_w_532 mx-auto mx-lg-0">
                 Our mission is to enhance the quality of life for senior
                 citizens by utilizing AI technology to address the significant
                 issue of loneliness and social isolation. We are dedicated to
@@ -21,14 +26,15 @@ const OurVision = () => {
                 their mental and physical health. Our focus is on creating an
                 empathetic and adaptable experience that caters to each
                 individual's unique needs and preferences, promoting a sense of
-                connection and community. <br /> <br /> We are committed to
-                making this innovative technology accessible and widely
-                available, empowering seniors worldwide to live happier,
-                healthier, and more fulfilling lives.
+                connection and community. <br />
+                <br className="d-none d-xl-block" /> We are committed to making
+                this innovative technology accessible and widely available,
+                empowering seniors worldwide to live happier, healthier, and
+                more fulfilling lives.
               </p>
               <a
                 href="#"
-                className="common_btn text-white font_sm fw-bold d-inline-block"
+                className="common_btn text-white font_sm fw-bold d-inline-block "
               >
                 Read More
               </a>
@@ -38,12 +44,17 @@ const OurVision = () => {
             <img
               src={vision}
               alt="vision1"
-              className="mt-4 mt-md-0 vision_position_img d-none d-lg-block"
+              className="vision_position_img d-none d-lg-block"
+              data-aos="fade-left"
+              data-aos-duration="2000"
             />
             <img
               src={vision2}
               alt="vision"
-              className="mt-4 mt-md-0 vision_position_img d-lg-none mx-auto"
+              className="mt-4 vision_position_img d-lg-none mx-auto"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-duration="2000"
             />
           </div>
         </div>

@@ -25,7 +25,7 @@ const BackToTop = () => {
     <>
       {/* // IF PAGE SCROLL VALUE GRATER THAN 500 THEN SHOW BACK TO TOP BUTTON */}
       {scrollPosition > 200 ? (
-        <div className="back-to-top" onClick={() => scrollToTop()}>
+        <div className="back-to-top animate_backtotop mb-5 me-sm-5" onClick={() => scrollToTop()}>
           <BackToTopArrow />
         </div>
       ) : (
