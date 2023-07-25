@@ -18,22 +18,22 @@ const Hero = () => {
               Let’s Make Our
               <span>
                 <img
-                  className="heroimage_1 ms-2  mt-3"
+                  className="heroimage_1 ms-2  mt-3 mt-xl-0"
                   src={heroimage1}
                   alt="hero_image1"
                 />
               </span>
               <span>
                 <img
-                  className="heroimage_2 ms-3  mt-3"
+                  className="heroimage_2 ms-3  mt-3 mt-xl-0"
                   src={heroimage2}
                   alt="hero_image2"
                 />
               </span>
-              <br className="d-none d-xl-block" />
+              <br className="d-none d-md-block" />
               <span>
                 <img
-                  className="heroimage_3 ms-3 mt-3 mt-sm-0 mt-lg-3 mt-xl-0"
+                  className="heroimage_3 mt-3 ms-3"
                   src={heroimage3}
                   alt="hero_image3"
                 />
