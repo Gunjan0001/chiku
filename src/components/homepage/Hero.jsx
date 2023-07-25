@@ -14,7 +14,7 @@ const Hero = () => {
         <Header />
         <div className="flex-grow-1 justify-content-center mx-4 mx-xl-0 d-flex align-items-center flex-column mt-4">
           <div className="d-flex align-items-center mb-4">
-            <h2 className="fw-bold font_3xl text_white max_w_1186  position-relative z_index_2 text-center text-md-start">
+            <h2 className="fw-bold font_3xl text_white  max_w_1186 position-relative z_index_2 text-center text-xl-start">
               Let’s Make Our
               <span>
                 <img
@@ -33,7 +33,7 @@ const Hero = () => {
               <br className="d-none d-xl-block" />
               <span>
                 <img
-                  className="heroimage_3 ms-3 mb-3 mt-3 "
+                  className="heroimage_3 ms-3 mt-3 mt-sm-0 mt-lg-3 mt-xl-0"
                   src={heroimage3}
                   alt="hero_image3"
                 />

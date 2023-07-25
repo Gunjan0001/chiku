@@ -9,7 +9,7 @@ const OurTeam = () => {
           <h2 className="font_xl text-white fw-semibold text-center mb-lg-3">
             Our <span className="text_orange">Team</span>
           </h2>
-          <p className="text-center common_para mb-lg-4 pb-lg-3 max_w_742 mx-auto">
+          <p className="text-center common_para mb-lg-4 pb-xl-3 max_w_742 mx-auto">
             Lorem ipsum dolor sit amet consectetur. Turpis rhoncus nibh faucibus
             posuere massa diam placerat et est. Tellus ultricies mattis
             condimentum sit est turpis at. Nisl consequat suscipit pulvinar
