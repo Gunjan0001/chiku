@@ -217,23 +217,7 @@ body {
 
 
 
-/* OUR_STORY */
-.blueshadow_position::after {
-  content: '';
-  position: absolute;
-  left: 1px;
-  bottom: 56px;
-  width: 440px;
-  height: 495px;
-  border-radius: 259.5px 259.5px 30px 30px;
-  background: linear-gradient(180deg, #0069FF 0%, rgba(0, 105, 255, 0.00) 100%);
 
-}
-
-
-.max_w_501 {
-  max-width: 501px;
-}
 
 /* BACK-TO-TOP */
 .back-to-top {
@@ -739,13 +723,6 @@ body {
 }
 
 @media (max-width: 1199.98px) {
-  .blueshadow_position::after {
-    left: 6px;
-    bottom: 65px;
-    width: 393.139px;
-    height: 394px;
-  }
-
   .heroimage_3 {
     width: 100px;
     height: 78px;
@@ -767,13 +744,6 @@ body {
     max-width: 300px;
   }
 
-  .blueshadow_position::after {
-    left: 6px;
-    bottom: 57px;
-    width: 393.139px;
-    height: 250px;
-  }
-
   .line_height {
     line-height: 150%;
   }
@@ -785,17 +755,11 @@ body {
   .heroimage_3 {
     width: 100px;
     height: 55px;
-    /* margin-top: 12px; */
+
   }
 }
 
 @media (max-width:767.98px) {
-  .blueshadow_position::after {
-    left: -1px;
-    bottom: 47px;
-    width: 307.139px;
-    height: 307px;
-  }
 
   .twomen_height {
     height: 500px;
@@ -809,14 +773,11 @@ body {
   .heroimage_3 {
     width: 100px;
     height: 55px;
-    /* margin-top: 12px; */
   }
 }
 
 @media (max-width:575.98px) {
-  .blueshadow_position::after {
-    display: none !important;
-  }
+
 
   .twomen_height {
     height: 299px;

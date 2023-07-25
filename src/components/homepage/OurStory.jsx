@@ -1,5 +1,5 @@
 import React from "react";
-import twomen from "../../assets/images/webp/twomen.webp";
+import twomen from "../../assets/images/webp/story_img.webp";
 
 const OurStory = () => {
   return (
@@ -9,11 +9,11 @@ const OurStory = () => {
         id="Our-Story"
       >
         <div className="row flex-column-reverse pb-xl-5 flex-lg-row align-items-center justify-content-between">
-          <div className=" col-8 col-sm-7 col-lg-5 text-center blueshadow_position position-relative pe-4">
+          <div className=" col-8 col-sm-5 col-lg-5 text-center  position-relative pe-4">
             <img
               src={twomen}
               alt="twomen_img"
-              className="w-100 twomen_height mt-4 mt-lg-0 z_index_5 position-relative"
+              className="w-100  mt-4 mt-lg-0 z_index_5 position-relative"
               data-aos="zoom-out-right"
               data-aos-offset="300"
               data-aos-duration="3000"
