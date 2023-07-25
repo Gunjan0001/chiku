@@ -33,7 +33,7 @@ const Hero = () => {
               <br className="d-none d-md-block" />
               <span>
                 <img
-                  className="heroimage_3 mt-3 ms-3"
+                  className="heroimage_3  ms-3"
                   src={heroimage3}
                   alt="hero_image3"
                 />
