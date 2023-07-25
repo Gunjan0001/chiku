@@ -9,7 +9,7 @@ const OurStory = () => {
         id="Our-Story"
       >
         <div className="row flex-column-reverse pb-xl-5 flex-lg-row align-items-center justify-content-between">
-          <div className=" col-8 col-sm-5 col-lg-5 text-center  position-relative pe-4">
+          <div className=" col-8 col-sm-5 col-md-6 col-lg-5 text-center  position-relative pe-4">
             <img
               src={twomen}
               alt="twomen_img"
