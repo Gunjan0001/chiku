@@ -9,7 +9,7 @@ const OurStory = () => {
         id="Our-Story"
       >
         <div className="row flex-column-reverse pb-xl-5 flex-lg-row align-items-center justify-content-between">
-          <div className=" col-8 col-sm-7 col-lg-5 text-center blueshadow_position position-relative">
+          <div className=" col-8 col-sm-7 col-lg-5 text-center blueshadow_position position-relative pe-4">
             <img
               src={twomen}
               alt="twomen_img"
@@ -20,7 +20,7 @@ const OurStory = () => {
             />
           </div>
           <div className="col-lg-6 ">
-            <div className="text-center text-lg-start">
+            <div className="text-center text-lg-start ps-xl-2">
               <h2
                 className="font_xl text-white fw-semibold mb-lg-3 "
                 data-aos="zoom-out-left"
@@ -30,7 +30,7 @@ const OurStory = () => {
                 Our <span className="text_orange">Story</span>
               </h2>
               <p
-                className="common_para mb-lg-4 mb-0 pb-3 mx-auto mx-lg-0 pe-3"
+                className="common_para mb-lg-4 mb-0 pb-3 mx-auto mx-lg-0 pe-2"
                 data-aos="zoom-out-left"
                 data-aos-offset="300"
                 data-aos-duration="3000"

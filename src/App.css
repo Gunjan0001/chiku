@@ -223,7 +223,7 @@ body {
   position: absolute;
   left: 1px;
   bottom: 56px;
-  width: 470px;
+  width: 440px;
   height: 495px;
   border-radius: 259.5px 259.5px 30px 30px;
   background: linear-gradient(180deg, #0069FF 0%, rgba(0, 105, 255, 0.00) 100%);
@@ -603,7 +603,7 @@ body {
 .hero_bg {
   background-image: url(./assets/images/png/herobgimage.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   z-index: 1 !important;
   position: relative;
 }
